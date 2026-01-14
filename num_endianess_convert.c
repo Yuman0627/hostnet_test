@@ -19,6 +19,6 @@ int main(int argc, char *argv[])
     local_num=ntohs(network_num);
     printf("将网络字节序无符号整数0x%hX转换为主机字节序0x%hX",network_num,local_num);
 
-    return 0; 
+    return 0;  
 
 }
